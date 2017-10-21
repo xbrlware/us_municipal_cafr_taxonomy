@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:us-cafr-roles="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofNetPosition" id="StatementofNetPosition">
+        <link:definition>Statement of net position</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/GovernmentalFundBalanceSheet" id="GovernmentalFundBalanceSheet">
+        <link:definition>Governmental fund balance sheet</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofRevenuesExpendituresandChangesinFundBalancesGovernmentalFunds" id="StatementofRevenuesExpendituresandChangesinFundBalancesGovernmentalFunds">
+        <link:definition>Statement of revenues, expenditures, and changes in fund balances governmental funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofNetPositionProprietaryFunds" id="StatementofNetPositionProprietaryFunds">
+        <link:definition>Statement of net position proprietary funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofRevenuesExpensesandChangesinFundNetPositionProprietaryFunds" id="StatementofRevenuesExpensesandChangesinFundNetPositionProprietaryFunds">
+        <link:definition>Statement of revenues expenses and changes in fund net position proprietary funds </link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofCashFlowsProprietaryFunds" id="StatementofCashFlowsProprietaryFunds">
+        <link:definition>Statement of cash flows proprietary funds</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofCashFlowsProprietaryFunds1" id="StatementofCashFlowsProprietaryFunds1">
+        <link:definition>Statement of cash flows proprietary funds 1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofActivities" id="StatementofActivities">
+        <link:definition>Statement of activities</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofActivities1" id="StatementofActivities1">
+        <link:definition>Statement of activities1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>
