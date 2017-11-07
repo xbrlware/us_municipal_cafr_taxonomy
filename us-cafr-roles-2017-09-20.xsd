@@ -26,8 +26,8 @@
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
-      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofRevenuesExpensesandChangesinFundNetPositionProprietaryFunds" id="StatementofRevenuesExpensesandChangesinFundNetPositionProprietaryFunds">
-        <link:definition>Statement of revenues expenses and changes in fund net position proprietary funds </link:definition>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/StatementofRevenuesExpensesandChangesinFundNetPosition" id="StatementofRevenuesExpensesandChangesinFundNetPosition">
+        <link:definition>Statement of revenues, expenses, and changes in fund net position</link:definition>
         <link:usedOn>link:calculationLink</link:usedOn>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
