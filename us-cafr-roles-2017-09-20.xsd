@@ -56,6 +56,12 @@
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>link:presentationLink</link:usedOn>
       </link:roleType>
+      <link:roleType roleURI="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles/DisclosureOfGeneralInformationAboutGovernment" id="DisclosureOfGeneralInformationAboutGovernment">
+        <link:definition>Disclosure of general information about government</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
     </xsd:appinfo>
   </xsd:annotation>
 </xsd:schema>
