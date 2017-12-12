@@ -8,12 +8,11 @@
       <link:linkbaseRef xlink:type="simple" xlink:href="./Presentation/us-cafr-pre-2017-09-20.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
     </xsd:appinfo>
   </xsd:annotation>
-  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  
   <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
   <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
   <xsd:import namespace="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles" schemaLocation="us-cafr-roles-2017-09-20.xsd" />
-  <xsd:import namespace="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-types" schemaLocation="us-cafr-types-2017-09-20.xsd" />
   <xsd:import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
   <xsd:import namespace="http://www.xbrl.org/2009/role/net" schemaLocation="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd" />
   <xsd:element name="StatementOfNetPositionOfPrimaryGovernmentAbstract" id="us-cafr_StatementOfNetPositionOfPrimaryGovernmentAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
@@ -75,12 +74,6 @@
   <xsd:element name="GovernmentalFundBalanceSheetTable" id="us-cafr_GovernmentalFundBalanceSheetTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="GovernmentalFundsAxis" id="us-cafr_GovernmentalFundsAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="GovernmentalFundsMember" id="us-cafr_GovernmentalFundsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="GeneralMember" id="us-cafr_GeneralMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="LocalOptionSalesTaxMember" id="us-cafr_LocalOptionSalesTaxMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="SHIPMember" id="us-cafr_SHIPMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="HOMEMember" id="us-cafr_HOMEMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="CDBGMember" id="us-cafr_CDBGMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember" id="us-cafr_OtherGovernmentalFundsMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="GovernmentalFundBalanceSheetLineItems" id="us-cafr_GovernmentalFundBalanceSheetLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="AccruedInterest" id="us-cafr_AccruedInterest" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="instant" />
   <xsd:element name="AccountsBilled" id="us-cafr_AccountsBilled" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="instant" />
@@ -108,7 +101,6 @@
   <xsd:element name="LiabilitiesDeferredInflowsAndFundBalances" id="us-cafr_LiabilitiesDeferredInflowsAndFundBalances" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="instant" />
   <xsd:element name="StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsAbstract" id="us-cafr_StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsTable" id="us-cafr_StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsAxis" id="us-cafr_StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsLineItems" id="us-cafr_StatementOfRevenuesExpendituresAndChangesInFundBalancesGovernmentalFundsLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="FundBalancesGovernmentalFundsAbstract" id="us-cafr_FundBalancesGovernmentalFundsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ChangeInFundBalancesAbstract" id="us-cafr_ChangeInFundBalancesAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
@@ -179,7 +171,6 @@
   <xsd:element name="RestrictedForSewerImpactFees" id="us-cafr_RestrictedForSewerImpactFees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="instant" />
   <xsd:element name="StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsAbstract" id="us-cafr_StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsTable" id="us-cafr_StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsAxis" id="us-cafr_StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsLineItems" id="us-cafr_StatementOfRevenuesExpensesAndChangesInFundNetPositionProprietaryFundsLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ChangesinNetPositionAbstract" id="us-cafr_ChangesinNetPositionAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="IncomeOrLossBeforeTransfersAndContributionsAbstract" id="us-cafr_IncomeOrLossBeforeTransfersAndContributionsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
@@ -224,7 +215,6 @@
   <xsd:element name="StatementOfCashFlowsProprietaryFundsAbstract" id="us-cafr_StatementOfCashFlowsProprietaryFundsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfCashFlowsAbstract" id="us-cafr_StatementOfCashFlowsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfCashFlowsTable" id="us-cafr_StatementOfCashFlowsTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="StatementOfCashFlowsAxis" id="us-cafr_StatementOfCashFlowsAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementOfCashFlowsLineItems" id="us-cafr_StatementOfCashFlowsLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="CashFlowsFromUsedInOperatingActivitiesAbstract" id="us-cafr_CashFlowsFromUsedInOperatingActivitiesAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="CashReceivedFromCustomers" id="us-cafr_CashReceivedFromCustomers" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
@@ -284,15 +274,11 @@
   <xsd:element name="GolfCourseMember" id="us-cafr_GolfCourseMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="StatementofActivitiesLineItems" id="us-cafr_StatementofActivitiesLineItems" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ExpenseRevenueChangesInNetPositionAbstract" id="us-cafr_ExpenseRevenueChangesInNetPositionAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="GovernmentalActivitiesAbstract" id="us-cafr_GovernmentalActivitiesAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="Expenses" id="us-cafr_Expenses" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="duration" />
   <xsd:element name="OperatingGrantsAndContributions" id="us-cafr_OperatingGrantsAndContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="duration" />
   <xsd:element name="CapitalGrantsAndContributions" id="us-cafr_CapitalGrantsAndContributions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="duration" />
-  <xsd:element name="GovernmentalActivities" id="us-cafr_GovernmentalActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="duration" />
-  <xsd:element name="BusinessTypeActivitiesEnterpriseFunds" id="us-cafr_BusinessTypeActivitiesEnterpriseFunds" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="credit" xbrli:periodType="duration" />
   <xsd:element name="ExpenseRevenueChangesInNetPosition" id="us-cafr_ExpenseRevenueChangesInNetPosition" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ChangesInNetPositionTable" id="us-cafr_ChangesInNetPositionTable" type="xbrli:stringItemType" substitutionGroup="xbrldt:hypercubeItem" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="ChangesinNetPositionAxis" id="us-cafr_ChangesinNetPositionAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="GovernmentalActivitesMember" id="us-cafr_GovernmentalActivitesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ChangesInNetPositionLineItems" id="us-cafr_ChangesInNetPositionLineItems" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="GeneralRevenuesAbstract" id="us-cafr_GeneralRevenuesAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
@@ -346,15 +332,15 @@
   <xsd:element name="DateOfEndOfFinancialYear" id="us-cafr_DateOfEndOfFinancialYear" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" />
   <xsd:element name="DateOfStartOfFinancialYear" id="us-cafr_DateOfStartOfFinancialYear" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" />
   <xsd:element name="NameOfTheGovernment" id="us-cafr_NameOfTheGovernment" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember1" id="us-cafr_OtherGovernmentalFundsMember1" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember2" id="us-cafr_OtherGovernmentalFundsMember2" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember3" id="us-cafr_OtherGovernmentalFundsMember3" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember4" id="us-cafr_OtherGovernmentalFundsMember4" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember5" id="us-cafr_OtherGovernmentalFundsMember5" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember6" id="us-cafr_OtherGovernmentalFundsMember6" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember7" id="us-cafr_OtherGovernmentalFundsMember7" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember8" id="us-cafr_OtherGovernmentalFundsMember8" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember9" id="us-cafr_OtherGovernmentalFundsMember9" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OtherGovernmentalFundsMember10" id="us-cafr_OtherGovernmentalFundsMember10" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="NatureOfOtherGovernmentalFunds" id="us-cafr_NatureOfOtherGovernmentalFunds" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember1" id="us-cafr_GovernmentalFundsMember1" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember2" id="us-cafr_GovernmentalFundsMember2" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember3" id="us-cafr_GovernmentalFundsMember3" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember4" id="us-cafr_GovernmentalFundsMember4" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember5" id="us-cafr_GovernmentalFundsMember5" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember6" id="us-cafr_GovernmentalFundsMember6" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember7" id="us-cafr_GovernmentalFundsMember7" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember8" id="us-cafr_GovernmentalFundsMember8" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember9" id="us-cafr_GovernmentalFundsMember9" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="GovernmentalFundsMember10" id="us-cafr_GovernmentalFundsMember10" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="NatureOfGovernmentalFunds" id="us-cafr_NatureOfGovernmentalFunds" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
 </xsd:schema>
