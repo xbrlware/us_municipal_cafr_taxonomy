@@ -475,4 +475,6 @@
   <xsd:element name="DetailsOfOtherPostEmploymentBenefitsAbstract" id="us-cafr_DetailsOfOtherPostEmploymentBenefitsAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="ExpendituresDebtServiceAbstract" id="us-cafr_ExpendituresDebtServiceAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="RestrictedCashAndInvestment" id="us-cafr_RestrictedCashAndInvestment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element name="CAFRDate" id="us-cafr_CAFRDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" />
+  <xsd:element name="PensionPlanName" id="us-cafr_PensionPlanName" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
 </xsd:schema>
