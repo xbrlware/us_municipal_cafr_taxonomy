@@ -13,7 +13,6 @@
   <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
   <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
   <xsd:import namespace="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-roles" schemaLocation="us-cafr-roles-2017-09-20.xsd" />
-  <xsd:import namespace="http://www.govwiki.info/xbrl/2017-09-20/us-cafr-types" schemaLocation="us-cafr-types-2017-09-20.xsd" />
   <xsd:import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
   <xsd:import namespace="http://www.xbrl.org/2009/role/net" schemaLocation="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd" />
   <xsd:element name="StatementOfNetPositionOfPrimaryGovernmentAbstract" id="us-cafr_StatementOfNetPositionOfPrimaryGovernmentAbstract" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration" />
@@ -439,15 +438,15 @@
   <xsd:element name="PensionActuariallyDeterminedContribution" id="us-cafr_PensionActuariallyDeterminedContribution" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionAnnualCost" id="us-cafr_PensionAnnualCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionActuarialValuationDate" id="us-cafr_PensionActuarialValuationDate" type="xbrli:dateItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="instant" />
-  <xsd:element name="PensionPlanContributionRatesAsAPercentageOfPayoll" id="us-cafr_PensionPlanContributionRatesAsAPercentageOfPayoll" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="PensionPlanContributionRatesAsAPercentageOfPayoll" id="us-cafr_PensionPlanContributionRatesAsAPercentageOfPayoll" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanActuarialCostMethodFunding" id="us-cafr_PensionPlanActuarialCostMethodFunding" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanAmortizationMethod" id="us-cafr_PensionPlanAmortizationMethod" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="PensionPlanMortalityRates" id="us-cafr_PensionPlanMortalityRates" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="PensionPlanMortalityRates" id="us-cafr_PensionPlanMortalityRates" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanRemainingAmortizationPeriod" id="us-cafr_PensionPlanRemainingAmortizationPeriod" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanAssetValuationMethod" id="us-cafr_PensionPlanAssetValuationMethod" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="PensionDiscountRate" id="us-cafr_PensionDiscountRate" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="PensionAssumedInflationRate" id="us-cafr_PensionAssumedInflationRate" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="PensionAssumedSalaryGrowth" id="us-cafr_PensionAssumedSalaryGrowth" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="PensionDiscountRate" id="us-cafr_PensionDiscountRate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="PensionAssumedInflationRate" id="us-cafr_PensionAssumedInflationRate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="PensionAssumedSalaryGrowth" id="us-cafr_PensionAssumedSalaryGrowth" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanTotalPensionLiability" id="us-cafr_PensionPlanTotalPensionLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanFiduciaryNetPosition" id="us-cafr_PensionPlanFiduciaryNetPosition" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="PensionPlanNetPensionLiability" id="us-cafr_PensionPlanNetPensionLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
@@ -465,9 +464,9 @@
   <xsd:element name="OPEBPlanAssets" id="us-cafr_OPEBPlanAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="OPEBPlanActuarialLiabilities" id="us-cafr_OPEBPlanActuarialLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="OPEBNetLiability" id="us-cafr_OPEBNetLiability" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OPEBFundedRatio" id="us-cafr_OPEBFundedRatio" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OPEBDiscountRate" id="us-cafr_OPEBDiscountRate" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
-  <xsd:element name="OPEBAssumedInflationRate" id="us-cafr_OPEBAssumedInflationRate" type="num:percentItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="OPEBFundedRatio" id="us-cafr_OPEBFundedRatio" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="OPEBDiscountRate" id="us-cafr_OPEBDiscountRate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
+  <xsd:element name="OPEBAssumedInflationRate" id="us-cafr_OPEBAssumedInflationRate" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="OPEBAssumedSalaryGrowth" id="us-cafr_OPEBAssumedSalaryGrowth" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="OPEBNetLiabilityAtDiscountRatePlus1" id="us-cafr_OPEBNetLiabilityAtDiscountRatePlus1" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
   <xsd:element name="OPEBNetLiabilityAtDiscountRateMinus1" id="us-cafr_OPEBNetLiabilityAtDiscountRateMinus1" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" abstract="false" nillable="true" xbrli:periodType="duration" />
